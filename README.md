@@ -5,7 +5,7 @@
 A STRAKS Point-of-Sale system written in ReactJS for STRAKS Gate
 
 ## Installation
-    git clone https://lab.straks.co/straks/react-pos.git
+    git clone https://github.com/AndrewWelc/straks-react-pos.git
     cd react-pos/
     npm install
     
