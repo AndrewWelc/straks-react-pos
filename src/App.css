@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.presetsh5 {
+  text-align: left;
+}
+
+.presets {
+  position: relative;
+  top: 0px;
+  left: 5px;
+  float: left;
+}
+
+.action {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.btn-action {
+  width: 220px;
+  font-weight: 900;
+  font-size: 1.4em;
+}
+
+
+
+.mono-tiny {
+  font-family: 'Ubuntu Mono';
+  font-size: 0.8em;
+}
+
+.bold {
+/*   font-family: 'Ubuntu'; */
+  font-weight: bold;
+}
+
+.bold-big {
+/*   font-family: 'Ubuntu'; */
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.price {
+  font-family: 'Ubuntu Mono';
+}
+
+.bottom {
+  position: relative;
+  bottom: 0px;
+}
+
+
+.home-brand {
+  font-weight: 900;
+}
+
+
+/*.list-items span {
+  margin-right: 10px;
+  
+}*/
+
+.avatar {
+  text-align: left;
+  
+}
+
+.btn-item-remove {
+  width: 100px;
+  height: 55px;
+}
+
+.subtotal-left {
+  font-size: 1em;
+  text-align: left;
+  position: relative;
+  left: 0px;
+  top: 0px;
+
+}
+
+.subtotal-right {
+  font-size: 1em;
+  text-align: right;
+  position: relative;
+  right: 0px;
+  top: 0px;
+
+}
+
+.row-top {
+  padding-top: 15px;
+}
+
+.subtotal-right h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.subtotal-right h5 {
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+
+.close {
+  position: relative;
+  right: 15px;
+  top: 0px;
+}
+
+.btn-close {
+  width: 40px;
+  height: 40px;
+  padding-left: 12px;
+  padding-top: 1px;
+}
+
+.btn-backandforth {
+  width: 150px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.backandforth {
+  padding-top: 15px;
+}
+
+.order-totals {
+  margin-top: 3.5vw;
+}
+
+/*.order-items span {
+  margin-right: 120px;
+  height: auto;
+}*/
+
+.order-items {
+  border-style: solid;
+  border-width: 2px 0px 0px 0px;
+  border-color: #c9daeb;
+}
+
+.order-item {
+  margin: 0;
+  padding: 10px 5px 5px 5px;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  border-color: #c9daeb;
+}
+
+.detail-items {
+/*  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #c9daeb;*/
+}
+
+.detail-item {
+  margin: -1px;
+  padding: 10px 5px 5px 5px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #c9daeb;
+}
+
+.item-total {
+  margin-right: -3.5vw;
+}
+
+.order-buttons {
+  margin-right: -5px;
+}
+
+.stakOrange {
+  background-color: #f2932e;
+}
+
+.stakBlue {
+  background-color: #243a4e;
+}
+
+.order-btn {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+.input-buttons {
+  margin-top: 8px;
+  margin-left: 0px;
+  float: left;
+
+}
+
+.input-btn {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  
+}
+
+
+.pingpong i {
+  margin-top: 25px;
+}
+
+.target-ratio-resize {
+	width: 100%; 
+	height: auto; 
+	max-width: 25vw; 
+}
+
+@media (max-width: 1200px){
+  .target-ratio-resize {
+    width: 100%; 
+    height: auto; 
+    max-width: 40vw; 
+  }
+}
+
+@media (max-width: 900px){
+  .target-ratio-resize {
+    width: 100%; 
+    height: auto; 
+    max-width: 50vw; 
+  }
+}
+
+@media (max-width: 600px){
+  .target-ratio-resize {
+    width: 100%; 
+    height: auto; 
+    max-width: 65vw; 
+  }
+}
