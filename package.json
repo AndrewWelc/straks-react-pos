@@ -4,7 +4,7 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "eslint": "^4.17.0",
+    "eslint": "^8.33.0",
     "eslint-plugin-standard": "^3.0.1",
     "node-uuid": "^1.4.8",
     "react": "^16.14.0",
